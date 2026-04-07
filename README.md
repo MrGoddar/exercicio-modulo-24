@@ -1,14 +1,29 @@
-# EBAC - Automação de API com PactumJS (Módulo 24)
+Este repositório contém os exercícios de automação de teste de API do Módulo 24 da EBAC. O foco do projeto é a validação dos serviços de Clientes (Customers) e Pedidos (Orders) da plataforma EBAC Store utilizando arquitetura REST.
 
-Este repositório contém os exercícios de automação de API utilizando **GraphQL** e **PactumJS**. O objetivo é validar os serviços de Categorias e Produtos da plataforma EBAC Store.
+🚀 Tecnologias Utilizadas
+Node.js (Ambiente de execução)
 
-## 🚀 Tecnologias Utilizadas
-- [PactumJS](https://pactumjs.github.io/)
-- [Mocha](https://mochajs.org/)
-- Node.js
+PactumJS (Framework de teste de API)
 
-## 🛠️ Como Executar o Projeto
-1. Clone o repositório.
-2. Instale as dependências:
-   ```bash
-   npm install# exercicio-modulo-24
+Mocha (Test Runner)
+
+Faker (Geração de dados aleatórios - opcional)
+
+🛠️ Estrutura do Projeto
+test/: Contém os arquivos de especificação de teste (.spec.js).
+
+config.js: Centralização da URL_BASE para facilitar a manutenção entre ambientes.
+
+⚙️ Como Executar o Projeto
+Clone o repositório:
+
+Bash
+git clone https://github.com/MrGoddar/exercicio-modulo-24.git
+Instale as dependências:
+
+Bash
+npm install
+Execute os testes:
+
+Bash
+npx mocha test/*.spec.js
