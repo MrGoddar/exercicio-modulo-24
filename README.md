@@ -7,7 +7,6 @@ PactumJS (Framework de teste de API)
 
 Mocha (Test Runner)
 
-Faker (Geração de dados aleatórios - opcional)
 
 🛠️ Estrutura do Projeto
 test/: Contém os arquivos de especificação de teste (.spec.js).
