@@ -1,0 +1,19 @@
+{
+  "name": "exercicio-modulo-24",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.spec.js"
+    
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "mocha": "^11.7.5",
+    "pactum": "^3.9.1"
+  }
+}
