@@ -15,7 +15,7 @@ describe('Módulo 24 - Serviço de Clientes (Customers)', function () {
                 "password": "admin"
             });
         
-        // Verifica se o token existe antes de atribuir
+        
         token = res.body.accessToken || res.body.token || 'TOKEN_DE_BACKUP';
         
         if (!res.body.accessToken) {
